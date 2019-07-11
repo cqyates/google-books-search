@@ -3,4 +3,4 @@ const googleController = require("../../controllers/google");
 
 router.route('/').get(googleController.findAll);
 
-module.exports = router
+module.exports = router;
